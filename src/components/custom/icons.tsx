@@ -2,6 +2,7 @@ import { GlobeIcon} from "lucide-react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FiFileText } from "react-icons/fi";
+import { FaXTwitter } from "react-icons/fa6";
 import { IoMail } from "react-icons/io5";
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
@@ -10,15 +11,7 @@ export const Icons = {
   email: (props: IconProps) => <IoMail {...props} />,
   resume: (props: IconProps) => <FiFileText {...props} />,
   linkedin: (props: IconProps) => <FaLinkedin {...props} />,
-  x: (props: IconProps) => (
-    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" {...props}>
-      <title>X</title>
-      <path
-        fill="currentColor"
-        d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
-      />
-    </svg>
-  ),
+  x: (props: IconProps) => <FaXTwitter {...props}/>,
   youtube: (props: IconProps) => (
     <svg
       width="32px"

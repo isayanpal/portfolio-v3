@@ -15,6 +15,12 @@ import { Icons } from "./icons";
       icon: Icons.linkedin,
     },
     {
+      title: "twitter",
+      username: "sayanstwt",
+      link: "https://x.com/sayanstwt",
+      icon: Icons.x,
+    },
+    {
       title: "resume",
       username: "resume",
       link: "https://drive.google.com/file/d/1jahVxLN3ZN64bFzCGqZ_MQQVj8kNfOH7/view",

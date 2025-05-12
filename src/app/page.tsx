@@ -1,6 +1,8 @@
 import About from "@/components/custom/About";
+import Github from "@/components/custom/Github";
 import { Item, SectionList } from "@/components/custom/section-list";
 import Socials from "@/components/custom/Socials";
+import Tools from "@/components/custom/Tools";
 import { HyperText } from "@/components/magicui/hyper-text";
 import Image from "next/image";
 
@@ -57,6 +59,8 @@ export default function Home() {
       </div>
   </section>
   <About/>
+  <Tools/>
+  <Github/>
   <SectionList title="worked at" items={workItems}/>
   <Socials/>
 </main>
